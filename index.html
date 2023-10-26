@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 SEMANTICO - Novos Blocos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- #nomeDoID .nomeDaClasse  -->
+    <div id="principal">
+    <!-- Header é a tag que especifica o cabeçalho da pagina-->
+        <header id="topo">
+            <div id="logotipo">
+                <img src="imagens/logotipo.png" alt="logotipo-da-empresa">
+            </div>
+
+            <!-- A tag nav é utilizada para links navegaveis interativos, pode ser utilizada em varios lugares da página /// ctrl + ; comentario -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="#index.html" class="linkmenu">HOME</a></li>
+                    <li><a href="#camisetas.html" class="linkmenu">CAMISETAS</a></li>
+                    <li><a href="#bermudas.html" class="linkmenu">BERMUDAS</a></li>
+                    <li><a href="#moletom.html" class="linkmenu">MOLETOM</a></li>
+                    <li><a href="#tenis.html" class="linkmenu">TÊNIS</a></li>
+                    <li><a href="#acessorios.html" class="linkmenu">ACESSÓRIOS</a></li>
+                    <li><a href="#contato.html" class="linkmenu">CONTATO</a></li>
+
+                </ul>
+            </nav>
+            
+            <nav id="sociais">
+                <ul>
+                    <li>
+                        <a href="#" class="linksociais">
+                            <img src="imagens/sociais/instagram.png" alt="instagram">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="linksociais">
+                            <img src="imagens/sociais/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="linksociais">
+                            <img src="imagens/sociais/youtube.png" alt="youtube">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="linksociais">
+                            <img src="imagens/sociais/whatsapp.png" alt="whatsapp">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="destaque">
+            <div id="item">
+                <img src="imagens/Destaque.png" alt="logoteste">
+            </div>
+        </div>
+        
+        <!-- Define um bloco de conteudo que faz referencia ou sitação ao conteudo principal  -->
+        <aside id="publicidade">
+            <img src="imagens/Inverno.png" alt="log-publicidade">
+        </aside>
+
+        <!-- A tag section determina uma seção ou bloco  -->
+        <section id="conteudo">
+            <!-- A tag main é onde colocamos o conteudo principal do site. Só devemos ter um main por página -->
+            <main>
+                <!-- A tag article se trata de um artigo dentro do conteudo, pode ser uma sitação de textos externos ou referencias -->
+                <article id="artigoprincipal">
+                    
+                    <div id="vendas">
+                        <a href="#venda.html" class="linkvenda">
+                            <img src="imagens/vendas/venda01.jpg" alt="Logotipo-venda">
+                            <p>Camiseta VLONE - MONEY OVER FRIENDS</p>
+                            <span>R$ 229,90</span>
+                        </a>
+                    </div>
+
+                    <div id="vendas">
+                        <a href="#venda.html" class="linkvenda">
+                            <img src="imagens/vendas/venda02.jpg" alt="Logotipo-venda">
+                            <p>Camiseta VLONE - MONEY OVER FRIENDS</p>
+                            <span>R$ 249,90</span>
+                        </a>
+                    </div>
+
+                    <div id="vendas">
+                        <a href="#venda.html" class="linkvenda">
+                            <img src="imagens/vendas/venda03.jpg" alt="Logotipo-venda">
+                            <p>Camiseta VLONE - MONEY OVER FRIENDS</p>
+                            <span>R$ 179,90</span>
+                        </a>
+                    </div>
+                </article>
+            </main>
+        </section>
+
+        <aside id="lateral">
+            <img src="imagens/GarotoPropaganda.png" alt="logo-lateral">
+        </aside>
+
+        <!-- Tag para consertar  -->
+        <div class="clearfix"></div>
+        <!-- Footer é utilizada para criação do rodapé da página ou até mesmo de artigos -->
+        <footer id="rodape">
+            <div id="copy">
+                &copy;2023 - MovingCompany - Todos os direitos reservados
+            </div>
+
+            <div id="dev">
+                Desenvolvido por: <a href="mailto:alissonsanhces54@gmail.com" class="desenv">Alisson</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
